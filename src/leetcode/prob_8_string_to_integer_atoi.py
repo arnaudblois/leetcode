@@ -15,6 +15,6 @@ def atoi(string: str) -> int:
         num = int(NUM_REGEX.search(string.strip()).group(0))
     except AttributeError:
         return 0
-    num = max(-(2 ** 31), num)
-    num = min(2 ** 31 - 1, num)
+    num = max(-(2**31), num)
+    num = min(2**31 - 1, num)
     return num
