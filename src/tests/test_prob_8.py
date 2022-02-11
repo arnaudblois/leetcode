@@ -12,5 +12,5 @@ def test_atoi():
     assert atoi("Invalid string no integer anywhere") == 0
     assert atoi(" -42 in a string") == -42
     assert atoi("    42 in a string") == 42
-    assert atoi(" 999999999999 s") == 2 ** 31 - 1
-    assert atoi(" -999999999999 s") == -(2 ** 31)
+    assert atoi(" 999999999999 s") == 2**31 - 1
+    assert atoi(" -999999999999 s") == -(2**31)
